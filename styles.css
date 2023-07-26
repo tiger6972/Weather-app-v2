@@ -1,0 +1,38 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #3f3d3d;
+  font-size: 18px;
+  margin: 45px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #097aea;
+  text-align: left;
+}
+h2 {
+  padding: 30px 0 10px 0;
+  font-size: 30px;
+  color: #0159b0;
+}
+.emojiSize {
+  font-size: 24px;
+}
+
+.headlineWeather {
+  font-size: 20px;
+}
+.emojiSizeHeadline {
+  font-size: 28px;
+}
+
+.search {
+  padding: 30px 0;
+}
+
+.btn-location {
+  color: white;
+  background: #11bc0b;
+  padding: 6px;
+  margin-left: 50px;
+}
