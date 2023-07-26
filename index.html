@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Week 5</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Hanau</h1>
+        </div>
+        <div class="col">
+          <form>
+            <div class="search">
+              <input
+              action="/submit"
+                type="text"
+                class="form-control"
+                id="citySearch"
+                placeholder="Enter your city here"
+              />
+              <br />
+              <button type="submit" class="btn btn-primary">Submit</button>
+               <button type="click" class = " btn btn-location" id="locationSearch">Current Location</button>
+            </div>
+          </form>
+           
+           </div>
+            </div>
+        <br />
+      </div>
+
+      <h2>Today</h2>
+      <div class="headlineWeather">
+        <strong id="current-date">
+          Sunday, 25 June
+        </strong>
+        <br />
+        <span class="todayTemp">Temperature: 30°C</span>
+      
+        <br />
+        Precipitation: 0%
+        <br />
+      </div>
+      <h2>5-day Forecast</h2>
+      <div class="row">
+        <div class="col">
+          <strong>Mon</strong> <br />
+          <span class="emojiSize">☀️</span>
+          <br />
+          31°C <br />
+          5%
+        </div>
+        <div class="col">
+          <strong>Tue</strong> <br />
+          <span class="emojiSize">🌦️</span>
+          <br />
+          25°C <br />
+          90%
+        </div>
+        <div class="col">
+          <strong>Wed</strong> <br />
+          🌤️ <br />
+          26°C <br />
+          30%
+        </div>
+        <div class="col">
+          <strong>Thu</strong> <br />
+          <span class="emojiSize">⛈️</span>
+          <br />
+          25°C <br />
+          95%
+        </div>
+        <div class="col">
+          <strong>Fri</strong> <br />
+          <span class="emojiSize">🌦️</span>
+          <br />
+          27°C <br />
+          95%
+        </div>
+      </div>
+    </div>
+    <br>
+  </br>
+  </body>
+  <script src="index.js"> </script>
+</html>
